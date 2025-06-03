@@ -6,14 +6,39 @@
 
 ## Demo projekt "Finanční ukazatel"
 
-- Shrnutí obchodních požadavků a tvorba epiku
-- Analýza rizik a GDPR z šablony (markdown tabulka)
-- Vytvoření uživatelského příběhu ze šablony
-- Vytvoření diagramů
-  - Diagram toku procesu (nebo BPMN diagram)
-  - Diagram vztahů entit (ERD) (v kontextu doménové architektury)
-  - Diagram případů použití (pro každý soubor kroků, např.)
-- Vytvoření návrhů databázových modelů (markdown tabulky, json schéma, sql soubory)
-- Vytvoření specifikací Open API
-- Vytvoření BDD (CucumberJS) testů
-- Pseudokód pro výpočet metrik
+### Nastavení základních instrukcí
+
+...
+
+### Shrnutí obchodních požadavků a tvorba epiku ze šablony
+
+...
+
+### Vytvoření uživatelského příběhu ze promptové šablony
+
+...
+
+### Analýza csv dat a jejich zpracování
+
+...
+
+### Vytvoření sekvenčních diagramů
+
+...
+
+### Vytvoření návrhů databázových modelů
+
+- Markdown tabulky
+- JSON schéma
+
+### Vytvoření specifikací Open API
+
+...
+
+### Vytvoření BDD (CucumberJS) testů
+
+...
+
+### Pseudokód pro výpočet metrik
+
+...
