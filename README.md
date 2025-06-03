@@ -14,19 +14,18 @@ Tento repozitář obsahuje materiály pro školení datových analytiků v prác
 ## 📁 Struktura projektu
 
 ```
-├── .github/                     # AI instrukce a konfigurace
-│   ├── copilot-instructions.md  # Globální instrukce pro Copilot
-│   ├── me.instructions.md       # Průvodce personalizovanými instrukcemi
-│   └── instructions/            # Ukázkové personalizované instrukce
-├── src/                         # Zdrojové kódy a skripty
-├── features/                    # BDD testy a scénáře
-├── templates/                   # Šablony pro dokumentaci a workflow
 ├── docs/                        # Dokumentace a materiály
-│   ├── poznamky/               # Ukázkové poznámky z porad
-│   ├── schuzky/                # Materiály ze schůzek
-│   └── soubory/                # Další dokumenty
-├── stories/                     # User stories a případové studie
-└── uzitecne-zdroje.md          # Odkazy na pokročilé nástroje
+│   ├── poznamky/                # Ukázkové poznámky z porad
+│   ├── schuzky/                 # Materiály ze schůzek
+│   └── soubory/                 # Další dokumenty a exporty
+├── epics/                       # Epics pro jednotlivé funkční celky
+│   ├── financni-ukazatel/       # Epic pro funkcionalitu finančního ukazatele
+│   └── qr-platba/               # Epic pro funkcionalitu QR plateb
+├── features/                    # BDD testy a scénáře
+│   ├── financni-ukazatel/       # Testy pro finanční ukazatel
+│   └── qr-platba/               # Testy pro QR platby
+├── src/                         # Zdrojové kódy a implementace
+└── templates/                   # Šablony pro dokumentaci a workflow
 ```
 
 ## 💡 Tipy pro efektivní práci
