@@ -1,3 +1,0 @@
-# Finanční zdraví user story
-
-...
