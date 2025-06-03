@@ -5,16 +5,19 @@ Tato složka slouží pro **vaše vlastní personalizované instrukce** vytvoře
 ## 🎯 Workshop úkoly
 
 ### Úkol 1: Vytvořte si vlastní instrukce
-1. Zkopírujte `template.md` 
+
+1. Zkopírujte `template.md`
 2. Pojmenujte ho podle účelu (např. `moje-eda-instrukce.md`)
 3. Vyplňte šablonu podle vašich potřeb
 
 ### Úkol 2: Otestujte instrukce
+
 1. Přidejte soubor k AI chatu
 2. Vyzkoušejte, jak AI reaguje
 3. Upravte podle výsledků
 
 ### Úkol 3: Sdílejte s ostatními
+
 1. Ukažte zajímavé výsledky
 2. Porovnejte různé přístupy
 3. Inspirujte se od ostatních
@@ -28,10 +31,6 @@ Tato složka slouží pro **vaše vlastní personalizované instrukce** vytvoře
 - `finance-domain.md` - Pro finanční analýzy
 - `moje-instrukce.md` - Vaše vlastní
 
-## 💡 Inspirace
-
-**Kompletní příklady najdete v**: `.github/instructions.examples/`
-
 ## 🔧 Jak použít
 
 1. **V AI chatu**: Nahrajte soubor s instrukcemi
@@ -39,4 +38,5 @@ Tato složka slouží pro **vaše vlastní personalizované instrukce** vytvoře
 3. **Pro tým**: Sdílejte užitečné instrukce s kolegy
 
 ---
-**Tip**: Experimentujte a nebojte se zkoušet různé přístupy! 
+
+**Tip**: Experimentujte a nebojte se zkoušet různé přístupy!
