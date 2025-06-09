@@ -72,3 +72,11 @@ TODO: Další užitečné informace
 ---
 
 **Tip**: Začněte jednoduše a postupně přidávejte detaily podle potřeby!
+
+## Aplikace pravidel
+[comment]: <> (Pro globální aplikaci tohoto pravidla ponechte applyTo: **)
+[comment]: <> (jinak lze místo ** zadat)
+[comment]: <> (pro všechny md soubory, applyTo:"**/*.md")
+---
+applyTo: "**"
+---

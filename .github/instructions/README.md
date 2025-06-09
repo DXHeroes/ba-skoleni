@@ -4,10 +4,10 @@ Tato složka slouží pro **vaše vlastní personalizované instrukce** vytvoře
 
 ## 🎯 Workshop úkoly
 
-### Úkol 1: Vytvořte si vlastní instrukce
+### Úkol 1: Vytvořte si instrukce pro specifický task
 
 1. Zkopírujte `template.md`
-2. Pojmenujte ho podle účelu (např. `moje-eda-instrukce.md`)
+2. Pojmenujte ho podle účelu (např. `<název>.instructions.md`)
 3. Vyplňte šablonu podle vašich potřeb
 
 ### Úkol 2: Otestujte instrukce
@@ -24,19 +24,20 @@ Tato složka slouží pro **vaše vlastní personalizované instrukce** vytvoře
 
 ## 📁 Doporučené názvy souborů
 
-- `junior-analyst.md` - Pro začátečníky
-- `senior-analyst.md` - Pro pokročilé
-- `eda-workflow.md` - Pro explorativní analýzu
-- `reporting.md` - Pro tvorba reportů
-- `finance-domain.md` - Pro finanční analýzy
-- `moje-instrukce.md` - Vaše vlastní
+- `eda-workflow.instructions.md` - Pro explorativní analýzu
+- `reporting.instructions.md` - Pro tvorba reportů
+- `finance-domain.instructions.md` - Pro finanční analýzy
+- `moje-instrukce.instructions.md` - Vaše vlastní
 
 ## 🔧 Jak použít
 
 1. **V AI chatu**: Nahrajte soubor s instrukcemi
 2. **V projektu**: Odkazujte na instrukce podle potřeby
 3. **Pro tým**: Sdílejte užitečné instrukce s kolegy
+4. **Nastavte metadata (viz template)**: Pro automatické aplikování pravidel pro definované situace.
 
 ---
 
 **Tip**: Experimentujte a nebojte se zkoušet různé přístupy!
+
+**Více zde**: [Customize chat responses in VS Code](https://code.visualstudio.com/docs/copilot/copilot-customization)
