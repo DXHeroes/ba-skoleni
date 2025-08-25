@@ -109,6 +109,7 @@ Výstup má být stručný, s doporučením, co dál ověřit.
 
 Nejprve zkuste vytvořit prompt bez speciální podpory, který AI požádá o vysvětlení.
 
+
 ---
 
 ### Co je reasoning?
@@ -134,6 +135,8 @@ Teď zkuste znovu vyřešit příběh, ale tentokrát použijte **reasoning**:
 - Požádej AI, aby **nejprve popsala postup krok za krokem** (jak uvažuje).
 - Pak ať AI vyvodí závěr a doporučení.
 - Výstup rozděl na dvě části: „úvaha“ a „shrnutí“.
+
+
 ---
 
 ## C. Prompt chaining
@@ -181,14 +184,36 @@ Teď zkuste znovu vyřešit příběh, ale s **prompt chainingem** – tedy rozd
 - Každý krok nech AI vyřešit samostatně, a výstup použij jako vstup pro další.
 - U každého kroku definuj jasný cíl a jednoduchý formát výsledku (seznam, tabulka, krátký text).
 - Nakonec spoj dílčí výsledky do jednoho celku.
+
+
 ---
 
 # Reflexe a diskuse
 
-* Co jste do promptu zahrnuli a co vynechali?
-* Bylo těžké odlišit podstatné od šumu?
-* Jak se liší výstupy AI podle délky/obsahu promptu?
-* Kdy je lepší být stručný vs. kdy podrobný?
-* Co jste si odnesli z porovnání promptů s ostatními?
+- Jak se lišilo psaní promptu napoprvé a potom s novou technikou?  
+- U meta promptingu: pomohlo vám nejdřív definovat, jak má vypadat prompt, než jste ho spustili?  
+- U reasoning: bylo užitečné vidět kroky uvažování, nebo to spíše komplikovalo výsledek?  
+- U prompt chainingu: co se změnilo, když jste rozdělili velký úkol na menší části?  
+- Kde jste cítili, že AI dává lepší a přesnější odpovědi?  
+- Která z technik by se vám hodila ve vaší každodenní práci datového analytika?  
+- Kdy je lepší být stručný, a kdy naopak strukturovat prompt do více kroků?  
 
-Cílem workshopu je **naučit se vybírat z příběhu jen to podstatné** a zformulovat jasný, přehledný prompt.
+--- 
+
+# Závěr workshopu
+
+Vyzkoušeli jste si tři různé techniky pokročilého promptování:
+
+- **Meta prompting** – když potřebujete nejdřív ujasnit, co má prompt obsahovat.  
+- **Reasoning** – když chcete, aby AI ukázala svůj myšlenkový postup, ne jen výsledek.  
+- **Prompt chaining** – když je úkol složitý a je lepší ho rozdělit na menší části.  
+
+Cílem nebylo najít jediný „správný“ prompt, ale uvědomit si, že různé techniky vedou k různým druhům výstupů.  
+Důležité je umět si vybrat tu, která nejlépe odpovídá danému úkolu.  
+
+V praxi datového analytika to znamená:  
+- rychleji odlišit podstatné od šumu,  
+- získat průhlednější a ověřitelnější odpovědi,  
+- a rozložit složité problémy tak, aby je AI zvládla krok za krokem.  
+
+Zkuste teď přemýšlet, **kde by vám každá technika mohla ušetřit čas nebo zvýšit kvalitu práce**.
