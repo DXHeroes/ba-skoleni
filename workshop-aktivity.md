@@ -1,204 +1,162 @@
 # Workshop: AI v praxi datového analytika
 
-## 🔧 Pokročilejší prompty – Cvičení
+## Jak pracovat s promptem
 
-Odkaz na cvičení: [Notion – Pokročilejší prompty](https://www.notion.so/applifting/Pokro-ilej-prompty-1f3031acb1608025a145d76d28463756?pvs=4)
+* Role v promptu je volitelná. Definujte ji jen, pokud pomáhá vymezit očekávání.
+* Doplňte si sami kontext, vstupy, omezení a požadovaný výstup. Šablony níže berte jako oporu, ne jako dogma.
+* Začněte stručným cílem, potom popište kroky (1–2–3), co od AI chcete.
+* Požádejte AI, ať si řekne o chybějící informace. Vytvářejte krátké iterace.
+* Preferujte přehledný výstup (seznam, tabulka, diagram, kontrolní seznam).
+* Pamatujte: **kratší, jasnější prompt = lepší výstup**.
 
----
-
-## 💼 Demo projekt: "Finanční skóre"
-
----
-
-### 1. Základní instrukce pro roli IT analytika
-
-```markdown
-# Role:
-Jsi seniorní IT analytik. Tvým úkolem je vytvořit dokumentaci pro novou funkcionalitu v mobilní bankovní aplikaci: **zobrazení finančního skóre uživatele**.
-
-# Pravidla:
-- Používej Markdown pro přehledné strukturování výstupu.
-- Dokumentace musí být pochopitelná pro vývojáře, testery i produktový tým.
-- Dodržuj osvědčené praktiky pro technickou dokumentaci.
-- Odpovídej vždy česky.
-
-# Výstup:
-- Komplexní dokumentace vhodná pro vložení do Confluence.
-```
----
-
-### 2. Vytvoření epik a user stories z obchodních požadavků
-
-```markdown 
-# Role:
-Jsi seniorní business analytik a agilní coach. Tvým cílem je převést obchodní požadavky do epik a uživatelských příběhů.
-
-# Vstupy:
-- <<<Text obchodních požadavků>>>
-- <<<Markdown šablona epiku>>>
-
-# Úkoly:
-1. Extrahuj klíčové požadavky.
-2. Vytvoř epiky dle zadané šablony.
-3. Ke každé epice vytvoř min. 3 uživatelské příběhy ve formátu:
-   - `Jako [role] chci [cíl], abych [důvod]`
-4. Navrhni prioritizaci epik pomocí MoSCoW.
-5. Identifikuj závislosti mezi epikami.
-
-# Výstup:
-- Strukturovaný výstup v Markdownu.
-- Odpověď v češtině.
-```
-
----
-
-### 3. Tvorba uživatelského příběhu se scénářem
+### Prompt šablona k vyplnění (doporučeno)
 
 ```markdown
-# Role:
-Jsi zkušený datový analytik a agilní coach. Vytvoř uživatelský příběh podle scénáře a šablony.
+# Role (volitelné):
+- [doplňte roli jen pokud pomáhá, např. "datový analytik zaměřený na kvalitu dat"]
+
+# Kontext:
+- [stručně popište situaci/úkol]
 
 # Vstupy:
-- <<<Markdown šablona uživatelského příběhu>>>
-- Scénář: *"Uživatel si chce změnit heslo v nastavení účtu."*
+- [jaká data/podklady máte]
 
 # Úkoly:
-1. Vyplň šablonu dle scénáře.
-2. Definuj alespoň 3 akceptační kritéria – měřitelná a ověřitelná.
+1. [co má AI udělat, krok za krokem]
+2. [druhý krok]
+3. [třetí krok]
 
 # Výstup:
-- Uživatelský příběh + akceptační kritéria v Markdownu.
-- Odpověď v češtině.
+- [požadovaný formát – text, tabulka, diagram, kontrolní seznam]
+- Odpověď česky.
 ```
 
 ---
 
-### 4. Analýza CSV dat
+# Cvičení
 
-```markdown
-# Role:
-Jsi zkušený datový analytik s expertní znalostí Pythonu, Pandas a NumPy.
-
-# Vstupy:
-- <<<Obsah CSV souboru>>>
-
-# Úkoly:
-1. Identifikuj chybějící, odlehlé a duplicitní hodnoty.
-2. Navrhni způsob jejich řešení (např. imputace, odstranění).
-3. Proveď základní statistickou analýzu (průměr, medián, min, max...).
-4. Vytvoř očištěný DataFrame s komentovaným kódem.
-
-# Výstup:
-- Čitelný, dobře komentovaný Python kód.
-- Shrnutí analýzy v češtině.
-```
+Níže máte **uživatelské příběhy**. Každý obsahuje **důležité i nepodstatné informace**.
+Vaším úkolem je **zformulovat prompt jen z toho, co považujete za klíčové**.
+Poté porovnejte svůj výsledek s ostatními a diskutujte rozdíly.
 
 ---
 
-### 5. Sekvenční diagram
+## 1. Uživatelský příběh: změna hesla
 
-```markdown
-# Role: 
-Jsi systémový analytik se znalostí UML. Tvým úkolem je vytvořit sekvenční diagram dané funkcionality.
-
-# Vstupy:
-- <<<Textový popis funkcionality>>>
-
-# Úkoly:
-1. Identifikuj hlavní aktéry a objekty.
-2. Vytvoř sekvenční diagram pomocí PlantUML syntaxe.
-3. Ujisti se, že pořadí zpráv odpovídá reálné logice systému.
-
-# Výstup:
-- Diagram jako PlantUML kód.
-- Popis v češtině.
 ```
+Ve čtvrtek odpoledne volal klient na linku podpory, protože se mu nedařilo změnit heslo.  
+Operátor zapsal požadavek do ticketovacího systému a ten doputoval až k vám.  
+Klient byl rozladěný a zmínil, že má už několikátý problém s internetovým bankovnictvím.  
+
+Vaše role je připravit podklady, se kterými může pracovat vývojový tým i dokumentace.  
+Banka má nastavená pravidla pro tvorbu hesel (minimální délka, složitost, zákaz opakování).  
+Součástí návrhu má být i popis chybových stavů (slabé heslo, vypršený odkaz).  
+Každá změna má být logovaná kvůli auditu.  
+
+Manažer z podpory také zmínil, že by se do budoucna hodila vizualizace změn hesel,  
+ale to není aktuální priorita. Operátor si navíc všiml, že klient měl neobvyklý e-mail,  
+ale to s heslem nesouvisí.  
+
+Výstup by měl být přehledný a vhodný pro týmovou spolupráci.
+```
+
+### Na co se zaměřit při tvorbě promptu
+
+* Oddělte **hlavní úkoly** (pravidla hesel, chybové stavy, audit log) od **doplňkového šumu**.
+* V promptu jasně specifikujte **požadovaný výstup** (např. tabulka pravidel, seznam chybových situací).
+* Ujistěte se, že AI má kontext: *„tento výstup bude sloužit pro dokumentaci a tým vývoje“*.
 
 ---
 
-### 6. Návrh databázového modelu
+## 2. Backlog z obchodních požadavků
 
-```markdown
-# Role:
-Jsi datový architekt se zkušeností s relačními databázemi.
-
-# Vstupy:
-- <<<Popis funkcionality>>>
-
-# Úkoly:
-1. Navrhni normalizovaný databázový model.
-2. Vytvoř:
-   - Markdown tabulku (entita, atributy, typy, PK/FK)
-   - JSON schéma stejného modelu
-
-# Výstup:
-- Konzistentní návrh v obou formátech.
-- Odpověď v češtině.
 ```
+Ráno dorazil od produktového manažera e-mail s volně sepsanými požadavky.  
+Základní body jsou: zobrazit finanční skóre, stručně vysvětlit hlavní faktory,  
+posílat notifikace při větších změnách a volitelně exportovat data pro reporting.  
+
+Manažer k tomu připsal, že by bylo super, kdyby aplikace jednou uměla i predikovat budoucí vývoj skóre,  
+ale to zatím není priorita. Stejně tak zmínil, že by bylo hezké mít export do PDF pro board meetingy.  
+
+Vaším úkolem je připravit backlog. Požadavky je potřeba rozdělit do epik a user stories,  
+určit priority metodou MoSCoW a doplnit závislosti (např. API, data ve skladu).  
+Výstup má být v Markdownu.  
+
+Poznámka: e-mail obsahoval i několik odrážek o tom, že by se mělo zlepšit UX aplikace,  
+ale ty nejsou součástí aktuálního zadání.
+```
+
+### Na co se zaměřit při tvorbě promptu
+
+* Zaměřte se na **relevantní požadavky**, ignorujte nápady „do budoucna“.
+* Struktura promptu by měla vést AI k:
+
+  1. rozdělení do epik a user stories,
+  2. označení priorit (MoSCoW),
+  3. doplnění závislostí.
+* Nezapomeňte v promptu vyžádat **výstup v Markdownu**.
+
 ---
 
-### 7. Open API specifikace
+## 3. Sekvenční diagram
 
-```markdown
-# Role:
-Jsi backendový vývojář s hlubokou znalostí OpenAPI (Swagger).
-
-# Vstupy:
-- <<<Popis funkcionality>>>
-
-# Úkoly:
-1. Vytvoř specifikaci ve formátu YAML (OpenAPI 3.0).
-2. Definuj:
-   - Koncové body
-   - HTTP metody (např. GET, POST)
-   - Request/response těla, datové typy a validace
-
-# Výstup:
-- Kompletní OpenAPI YAML.
-- Stručný popis v češtině.
 ```
+Tým si není jistý pořadím zpráv mezi systémy při zobrazení skóre.  
+Většina případů funguje přes tok: Mobilní aplikace → Backend API → Scoring Service → Databáze.  
+
+Scénář: uživatel otevře obrazovku, aplikace volá GET `/users/{id}/score`,  
+backend načte z databáze (nebo spustí přepočet ve Scoring Service), vrátí JSON.  
+Chybový tok: 404 pokud uživatel neexistuje.  
+
+Tester ale připomněl, že některé starší verze aplikace dělají ještě volání jiného API,  
+ale to se už dnes nepoužívá. Produkták zmínil, že by jednou mohli chtít i realtime notifikace,  
+ale to není součástí současného zadání.  
+
+Navíc si tým stěžuje, že aplikace na starých telefonech se někdy seká,  
+ale to s pořadím zpráv nesouvisí.  
+
+Úkol: připravit sekvenční diagram v PlantUML, který jasně ukáže hlavní tok.
+```
+
+### Na co se zaměřit při tvorbě promptu
+
+* Identifikujte **hlavní tok** a **minimální chybový tok**, ignorujte historické nebo budoucí poznámky.
+* V promptu uveďte jasně: *„vytvoř sekvenční diagram v PlantUML“*.
+* Pokud chcete, doplňte požadavek na **krátký popis kroků** spolu s diagramem.
+
 ---
 
-### 8. BDD testy s CucumberJS
+## 4. BDD scénáře (Gherkin)
 
-```markdown
-# Role:
-Jsi vývojář se zkušeností s BDD a frameworkem CucumberJS.
-
-# Vstupy:
-- <<<Popis funkcionality>>>
-
-# Úkoly:
-1. Vytvoř scénáře ve formátu Gherkin (Given, When, Then), které jasně definují očekávané chování systému.
-2. Ujisti se, že scénáře jsou srozumitelné pro vývojáře, testery a business stakeholdery.
-3. Zahrň i příklady dat pro Given a When kroky.
-4. Navrhni vhodné krokové definice v JavaScriptu (pomocí CucumberJS), které budou provádět testy na základě Gherkin scénářů.
-5. Ujisti se, že testy jsou robustní a pokrývají všechny relevantní případy použití.
-
-
-# Výstup:
-- `.feature` soubor se scénáři.
-- JS kód krokových definic.
-- Odpověď v češtině.
 ```
+Produktový manažer chce sjednotit, co znamená „hotovo“ pro obrazovku skóre.  
+Sepsal několik požadavků: šťastná cesta (zobrazení skóre), hraniční stavy (bez dat),  
+chybové stavy (selhání služby) a zobrazení faktorů.  
+
+Dodal, že by bylo dobré mít i performance testy pro 100k uživatelů současně,  
+ale to není aktuálně scope. Zmínil také, že by se scénáře měly dát importovat do JIRA,  
+ale to není podmínka pro první verzi.  
+
+Scénáře mají být napsané v Gherkinu, s Examples, tak aby jim rozuměl byznys i IT.  
+Výstup má být v češtině, bez implementačního kódu.  
+
+V poznámkách se objevilo i „vylepšit barevné schéma UI“, ale to s testováním nesouvisí.
+```
+
+### Na co se zaměřit při tvorbě promptu
+
+* Oddělte **testovací scénáře** od „nice to have“ poznámek.
+* V promptu uveďte: *„napiš Gherkin scénáře se sekcemi Given/When/Then a doplň Examples“*.
+* Ujistěte se, že AI ví, že výstup má být **v češtině** a **bez implementačního kódu**.
+
 ---
 
-### 9. Pseudokód pro výpočet metrik
+# Reflexe a diskuse
 
-```markdown 
-# Role: 
-Jsi analytik s hlubokými znalostmi algoritmizace a výpočtů.
+* Co jste do promptu zahrnuli a co vynechali?
+* Bylo těžké odlišit podstatné od šumu?
+* Jak se liší výstupy AI podle délky/obsahu promptu?
+* Kdy je lepší být stručný vs. kdy podrobný?
+* Co jste si odnesli z porovnání promptů s ostatními?
 
-# Vstupy:
-- <<<Popis metriky>>>
-
-# Úkoly:
-1. Napiš pseudokód, který jasně definuje kroky potřebné k výpočtu metriky.
-2. Použij běžnou notaci pseudokódu (cykly, podmínky, proměnné).
-3. Přidej komentáře vysvětlující účel jednotlivých kroků.
-
-# Výstup:
-- Srozumitelný, jazykově nezávislý pseudokód.
-- Vysvětlení v češtině.
-```
----
+Cílem workshopu je **naučit se vybírat z příběhu jen to podstatné** a zformulovat jasný, přehledný prompt.

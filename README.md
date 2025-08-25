@@ -11,6 +11,9 @@ Zvládáte základy? Teď je čas posunout se dál. V tomto školení se naučí
 
 Tento repozitář obsahuje materiály pro školení datových analytiků v práci s GitHub Copilotem a pokročilými AI technikami.
 
+### Doporučený průvodce
+- [Příběh datového analytika a AI](docs/pribeh-datoveho-analytika-ai.md)
+
 ## 📁 Struktura projektu
 
 ```
