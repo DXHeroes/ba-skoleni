@@ -82,9 +82,8 @@ Příklad:
 ---
 
 > Teď zkuste příběh znovu, ale použijte **meta prompting** – tedy:
-
-1. nejprve definujte prompt pro generování promptu,
-2. pak z něj nechte AI vytvořit výsledný prompt.
+> 1. nejprve definujte prompt pro generování promptu,
+> 2. pak z něj nechte AI vytvořit výsledný prompt.
 
 #### Tip
 - Začni větou, která AI řekne: „Tvůj úkol je vygenerovat prompt.“
@@ -133,9 +132,8 @@ Typický vzor: *„Nejprve vysvětli, jak bys postupoval krok za krokem, a pak u
 ---
 
 > Teď zkuste znovu vyřešit příběh, ale tentokrát použijte **reasoning**:
-
-* nechte AI vysvětlit svůj myšlenkový postup,
-* a až na konci shrnout závěr pro manažera.
+> * nechte AI vysvětlit svůj myšlenkový postup,
+> * a až na konci shrnout závěr pro manažera.
 
 #### Tip
 - Začni určením role a krátkého kontextu.
