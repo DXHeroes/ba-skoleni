@@ -48,23 +48,26 @@ Postup bude vždy stejný:
 
 ### Uživatelský příběh: Backlog z obchodních požadavků
 
+Úkol
+```
+Vaším úkolem je připravit backlog. Požadavky je potřeba rozdělit do epik a user stories,  
+určit priority metodou MoSCoW a doplnit závislosti (např. API, data ve skladu).  
+Výstup má být v Markdownu.
+```
+Příběh
 ```
 Ráno dorazil od produktového manažera e-mail s volně sepsanými požadavky.  
 Základní body jsou: zobrazit finanční skóre, stručně vysvětlit hlavní faktory,  
 posílat notifikace při větších změnách a volitelně exportovat data pro reporting.  
 
 Manažer k tomu připsal, že by bylo super, kdyby aplikace jednou uměla i predikovat budoucí vývoj skóre,  
-ale to zatím není priorita. Stejně tak zmínil, že by bylo hezké mít export do PDF pro board meetingy.  
-
-Vaším úkolem je připravit backlog. Požadavky je potřeba rozdělit do epik a user stories,  
-určit priority metodou MoSCoW a doplnit závislosti (např. API, data ve skladu).  
-Výstup má být v Markdownu.  
+ale to zatím není priorita. Stejně tak zmínil, že by bylo hezké mít export do PDF pro board meetingy.   
 
 Poznámka: e-mail obsahoval i několik odrážek o tom, že by se mělo zlepšit UX aplikace,  
 ale ty nejsou součástí aktuálního zadání.
 ```
 
-Nejprve vytvořte prompt tak, jak byste ho normálně napsali.
+> Nejprve vytvořte prompt tak, jak byste ho normálně napsali.
 
 ---
 
@@ -78,7 +81,7 @@ Příklad:
 
 ---
 
-Teď zkuste příběh znovu, ale použijte **meta prompting** – tedy:
+> Teď zkuste příběh znovu, ale použijte **meta prompting** – tedy:
 
 1. nejprve definujte prompt pro generování promptu,
 2. pak z něj nechte AI vytvořit výsledný prompt.
@@ -94,6 +97,13 @@ Teď zkuste příběh znovu, ale použijte **meta prompting** – tedy:
 
 ### Uživatelský příběh: Anomálie v datech
 
+Úkol
+```
+Úkol: připravit vysvětlení pro manažera, jestli jde spíš o datový problém, nebo reálný byznysový jev.  
+Výstup má být stručný, s doporučením, co dál ověřit.
+```
+
+Příběh
 ```
 Analytický tým si všiml, že v posledním exportu z datového skladu jsou výrazné rozdíly v počtu transakcí mezi jednotlivými regiony.  
 V Evropě je nárůst o 250 %, v Asii naopak pokles o 70 %.  
@@ -102,12 +112,9 @@ Manažer se ptá, jestli jde o reálný trend, nebo o chybu v datech.
 Současně v poznámkách zaznělo, že v systému probíhala migrace části uživatelů na nové účty,  
 a že obchodní tým měl marketingovou kampaň zaměřenou jen na Evropu.  
 Další informace: v datech se objevuje několik duplicitních ID a některé záznamy mají chybějící časové značky.  
-
-Úkol: připravit vysvětlení pro manažera, jestli jde spíš o datový problém, nebo reálný byznysový jev.  
-Výstup má být stručný, s doporučením, co dál ověřit.
 ```
 
-Nejprve zkuste vytvořit prompt bez speciální podpory, který AI požádá o vysvětlení.
+> Nejprve zkuste vytvořit prompt bez speciální podpory, který AI požádá o vysvětlení.
 
 
 ---
@@ -125,7 +132,7 @@ Typický vzor: *„Nejprve vysvětli, jak bys postupoval krok za krokem, a pak u
 
 ---
 
-Teď zkuste znovu vyřešit příběh, ale tentokrát použijte **reasoning**:
+> Teď zkuste znovu vyřešit příběh, ale tentokrát použijte **reasoning**:
 
 * nechte AI vysvětlit svůj myšlenkový postup,
 * a až na konci shrnout závěr pro manažera.
@@ -143,20 +150,25 @@ Teď zkuste znovu vyřešit příběh, ale tentokrát použijte **reasoning**:
 
 ### Uživatelský příběh: Analýza churnu
 
+Úkol
 ```
-Vaše banka chce snížit odchody klientů (churn).  
-Máte dataset s údaji o klientech: demografie, využívané produkty, historie transakcí, počet kontaktů se zákaznickou podporou.  
 Manažer chce:  
 1. vědět hlavní faktory odchodu klientů,  
 2. navrhnout segmenty rizikových klientů,  
 3. připravit nápady na retenční opatření.  
+```
+
+Příběh
+```
+Vaše banka chce snížit odchody klientů (churn).  
+Máte dataset s údaji o klientech: demografie, využívané produkty, historie transakcí, počet kontaktů se zákaznickou podporou.  
 
 Poznámka: v datech jsou i položky jako „poslední marketingová kampaň“ a „preferovaná barva karty“,  
 ty nejsou pro úkol zásadní.  
 Manažer potřebuje výsledky jako podklady pro prezentaci na boardu.
 ```
 
-Nejprve zkuste napsat prompt, který se snaží odpovědět na vše najednou.
+> Nejprve zkuste napsat prompt, který se snaží odpovědět na vše najednou.
 
 ---
 
@@ -177,7 +189,7 @@ Příklad:
 
 ---
 
-Teď zkuste znovu vyřešit příběh, ale s **prompt chainingem** – tedy rozdělit problém na několik jasných kroků a použít výstupy postupně.
+> Teď zkuste znovu vyřešit příběh, ale s **prompt chainingem** – tedy rozdělit problém na několik jasných kroků a použít výstupy postupně.
 
 #### Tip
 - Rozděl velký úkol na několik menších (např. 3 kroky).
