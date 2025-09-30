@@ -41,7 +41,7 @@ Postup bude vždy stejný:
 
 1. Nejprve zkuste úkol vyřešit **bez speciální techniky**.
 2. Pak si vysvětlíme novou techniku a vyzkoušíte to znovu.
-3. V průběhu sdílejte své prompty zde - https://forms.gle/hprXUxqd19BE24Vx8.
+3. V průběhu sdílejte své prompty zde - https://forms.gle/nCGP6n7T7MEQQz2j8.
 
 ---
 
