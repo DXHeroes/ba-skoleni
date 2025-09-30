@@ -1,4 +1,4 @@
-# Workshop: AI v praxi datového analytika
+# Workshop: AI v analytické praxi – pokročilé promptování
 
 ## Jak pracovat s promptem
 
