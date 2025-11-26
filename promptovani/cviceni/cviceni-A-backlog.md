@@ -26,8 +26,3 @@ ale to prosím teď ignoruj, to je spíš poznámka bokem a nepatří to do aktu
 Díky,
 Jirka, produktový manažer
 ```
-
-> Nejprve vytvořte prompt tak, jak byste ho normálně napsali.
-
-
-

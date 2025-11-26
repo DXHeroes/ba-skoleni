@@ -53,15 +53,15 @@ Níže najdete zkrácené odkazy na jednotlivá zadání cvičení a na možné 
 
 - **Cvičení A — Backlog z obchodních požadavků**  
   - Zadání: [./cviceni/cviceni-A-backlog.md](./cviceni/cviceni-A-backlog.md)  
-  - Možné řešení: [./solutions/01_backlog.md](./solutions/01_backlog.md)
+  - Možné řešení: [./kontext/01_backlog.md](./kontext/01_backlog.md)
 
 - **Cvičení B — Anomálie v datech**  
   - Zadání: [./cviceni/cviceni-B-anomalie.md](./cviceni/cviceni-B-anomalie.md)  
-  - Možné řešení: [./solutions/02_anomalie.md](./solutions/02_anomalie.md)
+  - Možné řešení: [./kontext/02_anomalie.md](./kontext/02_anomalie.md)
 
 - **Cvičení C — Analýza churnu**  
   - Zadání: [./cviceni/cviceni-C-churn.md](./cviceni/cviceni-C-churn.md)  
-  - Možné řešení: [./solutions/03_churn.md](./solutions/03_churn.md)
+  - Možné řešení: [./kontext/03_churn.md](./kontext/03_churn.md)
 
 
 # Závěr této části workshopu
