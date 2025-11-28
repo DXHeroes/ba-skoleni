@@ -41,9 +41,9 @@ Vaším úkolem je naučit se rozlišovat, jak k řešení problémů a úkolů 
 Postup bude vždy stejný:
 
 1. Nejprve se pokuste úkol vyřešit sami.
-1. Případně se inspirujte odkazem u jednotlivých cvičení.
-1. Poté si vysvětlíme promptovací techniku, kterou jste pravděpodobně využili.
-1. Průběžně sdílejte své prompty zde: https://forms.gle/nCGP6n7T7MEQQz2j8.
+2. Případně se inspirujte odkazem u jednotlivých cvičení.
+3. Poté si vysvětlíme promptovací techniku, kterou jste pravděpodobně využili.
+4. Průběžně sdílejte své prompty zde: https://forms.gle/Y8mhkG9jP4ci8qrL9.
 
 ---
 

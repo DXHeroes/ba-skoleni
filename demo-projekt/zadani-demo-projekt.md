@@ -1,14 +1,20 @@
-# Demo projekt "Finanční ukazatel"
+# Demo projekt
 
-Cílem je vytvořit kompletní dokumentaci a návrh pro novou funkci "Finanční ukazatel", kterou chceme přidat do pomyslné bankovní mobilní aplikace.
+Cílem je vytvořit kompletní dokumentaci a návrh pro novou funkci, kterou chceme přidat do pomyslné bankovní mobilní aplikace.
 
 ## Kroky
-1. Shrnutí jednotlivých podkladů z `./docs`
-2. Tvorba epicu ze šablony `./templates/epic.template.md`
-3. Tvorba jednotlivých user story ze šablony `./templates/user-story.template.md`
-4. Tvorba testovacích scénářů pro každou user story ve formátu Gherkin podle šablony `./templates/test-case.template.md`
-5. Generování sekvenčních diagramů pro každou user story ve formátu Mermaid
-6. Generování ER diagramu pro změny v datech
-7. Návrh OpenAPI specifikace pro novou funkci
-8. Vygeneruj testovací datové sady ve formátu JSON
-9. DoD validace dokumentace šablonou `./templates/dod.template.md`
+0. Zjisti, o co jde v demo projektu.
+1. Vytvoř shrnutí cíle projektu a hlavních funkcí.
+2. Vytvoř epik
+3. Uprav copilot-instrukce pro ukládání do `demo-projekt/epics/`
+4. Vytvoř jednotlivé user stories:
+- První vytvoř ručně
+- Druhou podle šablony
+- Třetí automatizovaně pomocí promptu
+5. Vytvoř testovací scénáře pro každou user story ve formátu Gherkin podle šablony `./templates/test-case.template.md`
+6. Vygeneruj sekvenční diagramy pro každou user story ve formátu Mermaid
+7. Vygeneruj ER diagram pro znázornění datového modelu nové funkce
+8. Navrhni OpenAPI specifikaci pro novou funkci
+9. Vygeneruj testovací datové sady ve formátu JSON
+10. Validuj dokumentaci pomocí šablony DoD `./templates/dod.template.md`
+11. Rozděl práci do tiketů
