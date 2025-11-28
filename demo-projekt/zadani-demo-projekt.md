@@ -12,9 +12,9 @@ Cílem je vytvořit kompletní dokumentaci a návrh pro novou funkci, kterou chc
 - Druhou podle šablony
 - Třetí automatizovaně pomocí promptu
 5. Vytvoř testovací scénáře pro každou user story ve formátu Gherkin podle šablony `./templates/test-case.template.md`
-6. Vygeneruj sekvenční diagramy pro každou user story ve formátu Mermaid
+6. Nainstaluj si extension Mermaid Chart a vygeneruj sekvenční diagramy pro každou user story
 7. Vygeneruj ER diagram pro znázornění datového modelu nové funkce
-8. Navrhni OpenAPI specifikaci pro novou funkci
+8. Nainstaluj si extension OpenAPI Editor a navrhni OpenAPI specifikaci pro novou funkci
 9. Vygeneruj testovací datové sady ve formátu JSON
 10. Validuj dokumentaci pomocí šablony DoD `./templates/dod.template.md`
 11. Rozděl práci do tiketů
