@@ -1,4 +1,4 @@
-# Vítejte na workshopu BA školení
+# Vítejte na workshopu školení AI pro analytiky ⭐️
 
 Tento repozitář slouží jako pracovní prostor pro účastníky našeho workshopu. Najdete zde veškeré podklady, zadání a šablony, které budeme v průběhu školení využívat.
 
