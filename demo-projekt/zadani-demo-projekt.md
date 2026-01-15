@@ -1,4 +1,4 @@
-# Demo projekt
+# Demo projekt
 
 Cílem je vytvořit kompletní dokumentaci a návrh pro novou funkci, kterou chceme přidat do pomyslné bankovní mobilní aplikace.
 
@@ -7,10 +7,7 @@ Cílem je vytvořit kompletní dokumentaci a návrh pro novou funkci, kterou chc
 1. Vytvoř shrnutí cíle projektu a hlavních funkcí.
 2. Vytvoř epik
 3. Uprav copilot-instrukce pro ukládání do `demo-projekt/epics/`
-4. Vytvoř jednotlivé user stories:
-- První vytvoř ručně
-- Druhou podle šablony
-- Třetí automatizovaně pomocí promptu
+4. Vytvoř jednotlivé user stories
 5. Vytvoř testovací scénáře pro každou user story ve formátu Gherkin podle šablony `./templates/test-case.template.md`
 6. Nainstaluj si extension Mermaid Chart a vygeneruj sekvenční diagramy pro každou user story
 7. Vygeneruj ER diagram pro znázornění datového modelu nové funkce
