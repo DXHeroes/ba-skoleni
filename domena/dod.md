@@ -2,9 +2,9 @@
 
 ## 1. Dokumentační požadavky
 
-- [ ] Všechny epiky jsou plně zdokumentovány podle šablony (`epic.template.md`)
-- [ ] Všechny user stories jsou detailně popsány podle šablony (`user-story.template.md`)
-- [ ] BDD scénáře jsou vytvořeny pro všechny klíčové funkce (`feature.template.feature`)
+- [ ] Všechny epiky jsou plně zdokumentovány podle šablony (`epic.sablona.md`)
+- [ ] Všechny user stories jsou detailně popsány podle šablony (`user-story.sablona.md`)
+- [ ] BDD scénáře jsou vytvořeny pro všechny klíčové funkce (`test-case.sablona.md`)
 - [ ] ER diagram je aktuální a obsahuje všechny entity a vztahy
 - [ ] Všechny zkratky a odborné termíny jsou vysvětleny v glosáři
 - [ ] Byznysová část dokumentace API je popsána (typy dat, požadované funkce), existuje OpenAPI návrh 
