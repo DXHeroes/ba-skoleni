@@ -67,9 +67,3 @@
 - [ ] Je definován obsah pro vzdělávací materiály a návody
 - [ ] Jsou identifikovány cílové skupiny pro školení
 - [ ] Je připraven seznam častých dotazů (FAQ) s odpověďmi
-
-## Poznámky a specifické požadavky pro tento projekt
-
-- [Zde doplňte specifické analytické požadavky pro váš projekt]
-- [Například: požadavky na motivační textace při nízkém finančním skóre]
-- [Například: specifické regulatorní požadavky pro finanční aplikace]
