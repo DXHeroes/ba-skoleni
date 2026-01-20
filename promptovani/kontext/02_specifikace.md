@@ -1,6 +1,6 @@
 **Ukázka možného postupu (řetězec úvah / reasoning):**
 
-V přepisu schůzky se objevuje více různých informací o anomáliích a problémech. Než se pustíte do samotného řešení, je užitečné si nejdříve ujasnit, **na co všechno byste se jako datoví analytici měli zaměřit, co ověřit a jak postupovat**.
+V přepisu schůzky se objevuje více různých informací o nové funkci. Než se pustíte do samotného řešení, je užitečné si nejdříve ujasnit, **na co všechno byste se jako analytici měli zaměřit, co ověřit a jak postupovat**.
 
 U tohoto tasku můžete využít AI tak, že si nejprve necháte vygenerovat **návrh postupu a způsobu přemýšlení**, například pomocí promptu ve stylu:
 
