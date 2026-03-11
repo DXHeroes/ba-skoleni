@@ -43,7 +43,7 @@ Postup bude vždy stejný:
 1. Nejprve se pokuste úkol vyřešit sami.
 2. Případně se inspirujte odkazem u jednotlivých cvičení.
 3. Poté si vysvětlíme promptovací techniku, kterou jste pravděpodobně využili.
-4. Průběžně sdílejte své prompty zde: [https://forms.gle/Y8mhkG9jP4ci8qrL9](https://forms.gle/7yPNcDPcMEJgUYoi6).
+4. Průběžně sdílejte své prompty zde: [https://forms.gle/RnZTAJTmFRZnbRJz9](https://forms.gle/RnZTAJTmFRZnbRJz9).
 
 ---
 
@@ -55,13 +55,13 @@ Níže najdete zkrácené odkazy na jednotlivá zadání cvičení a na možné 
   - Zadání: [./cviceni/cviceni-A-backlog.md](./cviceni/cviceni-A-backlog.md)  
   - Možné řešení: [./kontext/01_backlog.md](./kontext/01_backlog.md)
 
-- **Cvičení B — Anomálie v datech**  
-  - Zadání: [./cviceni/cviceni-B-anomalie.md](./cviceni/cviceni-B-anomalie.md)  
-  - Možné řešení: [./kontext/02_anomalie.md](./kontext/02_anomalie.md)
+- **Cvičení B — Analytická dokumentace z požadavků**  
+  - Zadání: [./cviceni/cviceni-B-specifikace.md](./cviceni/cviceni-B-specifikace.md)  
+  - Možné řešení: [./kontext/02_specifikace.md](./kontext/02_specifikace.md)
 
-- **Cvičení C — Analýza churnu**  
-  - Zadání: [./cviceni/cviceni-C-churn.md](./cviceni/cviceni-C-churn.md)  
-  - Možné řešení: [./kontext/03_churn.md](./kontext/03_churn.md)
+- **Cvičení C — Testovací scénáře z požadavků**  
+  - Zadání: [./cviceni/cviceni-C-testovani.md](./cviceni/cviceni-C-testovani.md)  
+  - Možné řešení: [./kontext/03_testovani.md](./kontext/03_testovani.md)
 
 
 # Závěr této části workshopu
