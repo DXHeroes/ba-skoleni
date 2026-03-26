@@ -1,1 +1,0 @@
-Zatím se mluví o jednom výpočtu denně, ale architekt naznačil, že by bylo dobré navrhnout řešení tak, aby v budoucnu šel výpočet spouštět on-demand (např. po změně zůstatku nebo připsání výplaty). Zvážit při návrhu service.
