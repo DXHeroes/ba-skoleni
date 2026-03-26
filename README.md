@@ -9,34 +9,34 @@ Workshop je rozdělen do dvou hlavních částí:
 ### 1️⃣ Promptování (`promptovani/`)
 Tato část je zaměřena na trénink efektivního zadávání promptů pro AI nástroje. Obsahuje:
 
-- **Zadání cvičení** (`zadani-promptovani.md`): Úvod do promptování a cíle cvičení.
+- **Zadání cvičení** (`zadani-promptovani.md`): Úvod do promptování a přehled cvičení.
 - **Praktická cvičení** (`cviceni/`):
-	- `cviceni-A-backlog.md` – práce s backlogem
-	- `cviceni-B-anomalie.md` – detekce anomálií
-	- `cviceni-C-churn.md` – analýza churnu
-- **Kontextové soubory** (`kontext/`): Podklady a data potřebná pro jednotlivá cvičení.
+	- `cviceni-A-backlog.md` – tvorba backlogu z obchodních požadavků
+	- `cviceni-B-specifikace.md` – analytická dokumentace z požadavků
+	- `cviceni-C-testovani.md` – testovací scénáře z požadavků
+	- `cviceni-D-analyza.md` – kritická analýza protichůdných podkladů
+- **Kontextové soubory** (`kontext/`): Ukázky možných postupů a promptovacích technik pro jednotlivá cvičení.
+
+**Jak postupovat:**
+1. Otevřete zadání a prostudujte jednotlivá cvičení.
+2. Nejprve se pokuste úkol vyřešit sami, pak se inspirujte kontextovými soubory.
+3. Sdílejte své výsledky a tipy s ostatními účastníky.
 
 ### 2️⃣ Demo projekt (`demo-projekt/`)
 V této části si vyzkoušíte práci s požadavky na reálném příkladu. Složka obsahuje:
 
-- **Zadání projektu** (`zadani-demo-projekt.md`): Popis cíle, rozsahu a očekávání od demo projektu.
-- **Dokumentace ze schůzek** (`docs/`): Zápisy z jednotlivých schůzek, poznámky, e-maily a další podklady, které simulují komunikaci v projektu.
-- **Šablony pro dokumentaci** (`templates/`):
-	- `user-story.template.md` – šablona pro User Story
-	- `epic.template.md` – šablona pro Epic
-	- `test-case.template.md` – šablona pro Test Case
-	- `dod.template.md` – šablona pro Definition of Done
+- **Zadání projektu** (`zadani-demo-projekt.md`): Popis cíle, rozsahu a seznam úkolů.
+- **Podklady** (`prilohy/`): Emailové thready, zápisy ze schůzek, poznámky architekta a UX výzkum. ⚠️ Podklady pocházejí od různých lidí a nemusí být vzájemně konzistentní.
+- **Šablony pro dokumentaci** (`sablony/`):
+	- `user-story.sablona.md` – šablona pro User Story
+	- `epic.sablona.md` – šablona pro Epic
+	- `test-case.sablona.md` – šablona pro Test Case
 
 **Jak postupovat:**
-1. Projděte si zadání a zápisy ze schůzek.
-2. Identifikujte klíčové požadavky a sestavte User Stories, Epicy a Test Cases podle šablon.
-3. Pracujte v týmu, diskutujte zadání a dokumentujte poznatky.
-
-**Jak postupovat:**
-1. Otevřete zadání a prostudujte kontextové soubory.
-2. Vyzkoušejte různé typy promptů podle zadání cvičení.
-3. Sdílejte své výsledky a tipy s ostatními účastníky.
-
+1. Projděte si zadání a **všechny** podklady v `prilohy/`.
+2. Identifikujte rozpory a otevřené otázky napříč podklady.
+3. Sestavte dokumentaci podle šablon — epiky, user stories, test cases.
+4. Pracujte v týmu, diskutujte zadání a dokumentujte poznatky.
 
 ## 📝 Doporučený postup pro účastníky
 
