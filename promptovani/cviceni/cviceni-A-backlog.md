@@ -2,8 +2,8 @@
 
 ### Uživatelský příběh: Backlog z obchodních požadavků
 
-E-mail od produktového manažera
-```
+E-mail od produktového manažera:
+
 Ahoj,
 
 potřeboval bych, abyste připravili backlog pro nový modul finančního skóre.
@@ -25,4 +25,3 @@ ale to prosím teď ignoruj, to je spíš poznámka bokem a nepatří to do aktu
 
 Díky,
 Jirka, produktový manažer
-```

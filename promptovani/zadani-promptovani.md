@@ -27,3 +27,16 @@ Níže najdete zkrácené odkazy na jednotlivá zadání cvičení a na možné 
 - **Cvičení D — Kritická analýza protichůdných podkladů**  
   - Zadání: [./cviceni/cviceni-D-analyza.md](./cviceni/cviceni-D-analyza.md)  
   - Možné řešení: [./kontext/04_analyza.md](./kontext/04_analyza.md)
+
+# Závěr této části workshopu
+
+Vyzkoušeli jste si různé techniky pokročilého promptování:
+
+- **Meta prompting** – když potřebujete nejdřív ujasnit, co má prompt obsahovat.  
+- **Reasoning** – když chcete, aby AI ukázala svůj myšlenkový postup, ne jen výsledek.  
+- **Prompt chaining** – když je úkol složitý a je lepší ho rozdělit na menší části. 
+- **Critical analysis** – když potřebujete, aby AI zhodnotila a porovnala různé zdroje informací. 
+
+Cílem nebylo najít jediný „správný“ prompt, ale uvědomit si, že různé techniky vedou k různým druhům výstupů. Důležité je umět využít tu, která nejlépe odpovídá danému úkolu.
+
+Zkuste se zamyslet, **kde by vám každá technika mohla ušetřit čas nebo zvýšit kvalitu práce**.

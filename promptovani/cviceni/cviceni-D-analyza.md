@@ -85,21 +85,3 @@ Poznámky k projektu digitální onboarding:
 4. **Uchovávání dat:** Scan dokladu smíme uchovávat maximálně **72 hodin** po dokončení ověření. Poté musí být smazán. Toto musí být implementováno automaticky.
 
 5. Název „Účet za 5 minut" v marketingové kampani je **potenciálně klamavý**, pokud proces reálně trvá déle. Doporučuji změnit na vágnejší formulaci.
-
----
-
-### Úkol
-
-1. Projdi všechny tři podklady a vytvoř strukturovaný přehled:
-   - **Shoda** — na čem se všichni shodují
-   - **Rozpory** — kde si dokumenty/stakeholdeři protiřečí (kdo, co, kde)
-   - **Otevřené otázky** — co zatím nikdo nerozhodl
-   - **Rizika** — co z podkladů vyplývá jako potenciální problém
-
-2. U každého rozporu navrhni doporučení, jak ho vyřešit.
-
-### Na co si dát pozor
-
-- Některé rozpory jsou zřejmé (přímý nesouhlas), jiné vyplývají teprve ze srovnání dokumentů.
-- Technická omezení mohou znemožnit to, co business owner považuje za samozřejmost.
-- Compliance požadavky jsou hard constraints --- nelze je obejít, jen přizpůsobit design.
